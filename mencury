@@ -919,9 +919,8 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "dey", Description = "LIMBAD", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
-	creditsTab:credit{Name = "dey", Description = "LIMBAD", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
-	creditsTab:credit{Name = "dey", Description = "LIMBAD LMAOO", Github="https://github.com/deeeity/mercury-lib/blob/master/src.lua"}
+	creditsTab:credit{Name = "Dragon Dupe", Description = "Owner", Discord = "Dragon Dupe#1089", Github = "DragonDupe"}
+	creditsTab:credit{Name = "R1_Z1", Description = "Developer", Github = "RyzGeeTaH"}
 
 	return mt
 end
