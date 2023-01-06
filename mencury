@@ -658,14 +658,14 @@ function Library:create(options)
 		Position = UDim2.new(0, 5, 1, -6),
 		Size = UDim2.new(0.2, 0, 0, 10),
 		Font = Enum.Font.SourceSans,
-		Text = "Status | Online | https://discord.gg/qXjT9e9Y4m | V2 | Full Support | Dragon Dupe | Dragon Hub | XyzTeams",
+		Text = "Status | Full Support 24/7 Online",
 		Theme = {TextColor3 = "Tertiary"},
-		TextSize = 14,
+		TextSize = 15,
 		TextXAlignment = Enum.TextXAlignment.Left
 	})
 
 	local homeButton = tabButtons:object("TextButton", {
-		Name = "hehehe siuuuuuuuuu",
+		Name = "Dragon Hub",
 		BackgroundTransparency = 0,
 		Theme = {BackgroundColor3 = "Secondary"},
 		Size = UDim2.new(0, 125, 0, 25)
