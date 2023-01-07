@@ -1,0 +1,6 @@
+if game.PlaceId == 9872472334 then
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/DragonHubXyz/DragonHub/main/Evade")()
+    
+elseif game.PlaceId == 13822889 then
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/DragonDupe/YouTube/main/Dragon-Dupe-V.2_G.2.txt")()
+end
