@@ -636,7 +636,7 @@ end
 
 function Hide()
 	Debounce = true
-	RayfieldLibrary:Notify({Title = "Kamu Bau Eek", Content = "Klik Right Shift Buat Munculin Ui Lagi Ya Dek", Duration = 20})
+	RayfieldLibrary:Notify({Title = "R1_Z1", Content = "Klik RightShift Buat Munculin Uinya Lagi Yaaa", Duration = 30})
 	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 470, 0, 400)}):Play()
 	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 470, 0, 45)}):Play()
 	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
