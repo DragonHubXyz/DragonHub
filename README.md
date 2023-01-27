@@ -1,3 +1,3 @@
 # DragonHub
 
-$ Beta
+## Beta
