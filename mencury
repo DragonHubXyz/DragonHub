@@ -182,7 +182,7 @@ function Library:object(class, properties)
 		radius = radius or 6
 		Library:object("UICorner", {
 			Parent = localObject,
-			CornerRadius = UDim.new(0, radius)
+			CornerRadius = UDim.new(0, 8)
 		})
 		return methods
 	end
@@ -208,7 +208,7 @@ function Library:object(class, properties)
 				Size = UDim2.fromScale(1, 1),
 				Centered = true,
 				ZIndex = 999
-			}):round(self.AbsoluteObject:FindFirstChildOfClass("UICorner") and self.AbsoluteObject:FindFirstChildOfClass("UICorner").CornerRadius.Offset or 0)
+			}):round(self.AbsoluteObject:FindFirstChildOfClass("UICorner") and self.AbsoluteObject:FindFirstChildOfClass("UICorner").CornerRadius.Offset or 8)
 			rawset(self, "fadeFrame", frame)
 		else
 			self.fadeFrame.BackgroundColor3 = colorOverride or self.BackgroundColor3
